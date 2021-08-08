@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: white;
+    margin: 0px;    
+}
+
+#page-header {
+    font-size: 20px;
+    font-weight: 800; 
+    background: white; 
+    margin: 20px auto; 
+    text-align: center;
+
+}
+
+#container-background {
+
+    background-color: rgb(204, 203, 203);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 203, 203);
+    width: 500px;
+    height: auto;
+    margin: auto;  
+
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 5px 5px 5px 5px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding: 10px;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(177, 177, 177);
+    padding: 10px;
+}
+
+
+
+.caption {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.photo {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: center;
+    background-position-x: center;
+    width: 500px;
+    height: 400px;
+}
+
+#photo-1 {
+    background-image: url(../pexels-pixabay-220413.jpg);   
+}
+
+#photo-2 {
+    background-image: url(../pexels-pixabay-355235.jpg);
+}
+
+#photo-3 {
+    background-image: url(../pexels-pixabay-39317.jpg);
+}
+
+
+
